@@ -1,0 +1,238 @@
+#section1_top_title div{
+    color: #03B81B;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: 7px;
+}
+
+.ghome_section_con {
+    display: flex;
+    width: 1150px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#section2_sol img{
+    width: 450px;
+    height: 450px;
+    margin-left: 25px;
+}
+
+#section2_sag{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+#section2_ara {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+#section2_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#section2_title span{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+#section2_istatistik{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#section2_istatistik span{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#section2_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#section2_btn a button{
+    color: #e6e6e6;
+}
+
+#section2_btn button{
+    width: 20rem;
+    background-color: #7fa650;
+    padding: 20px 25px;
+    font-size: 30px;
+    border-radius: 14px;
+    margin-top: 20px;
+}
+
+#section2_btn button:hover{
+    width: 20rem;
+    background-color: #99d353;
+    padding: 20px 25px;
+    font-size: 30px;
+    border-radius: 14px;
+    margin-top: 20px;
+}
+
+#section2_btn button:hover a{
+    color: #fff;
+}
+
+#section3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+
+#section3_sol{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+}
+
+#section3_sol_title{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#section3_sol_p{
+    margin-top: 60px;
+}
+
+#section3_sol_p p{
+    color: #fff;
+    font-size: 20px;
+}
+#section3_sol_p div{
+    height: 60px;
+    display: flex;
+}
+
+#section_3_sag img{
+    width: 450px;
+    height: 450px;
+}
+
+#section4{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+#section4_sol{
+    margin-top: 40px;
+    width: 700px;
+}
+
+#section4_sol_title{
+    font-size: 30px;
+}
+
+#section4_sol_yazi{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#section4_sol_yazi_alt img{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+}
+
+#section4_sol_yazi_alt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#section4_sol_yazi_alt div{
+    margin-left: 30px;
+}
+
+#section4_sol_yazi_alt div p{
+    font-size: 17px;
+    width: 400px;
+}
+
+#section4_sol_yazi_alt div div{
+    height: 10px;
+}
+
+#section4_sol_yazi_alt div span{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#section4_sol_yazi_alt div button{
+    background-color: #A80101;
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#section_4_sag img{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+#section5{
+    margin-top: 0px;
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+#section5_orta{
+    display: flex;
+    color: blue;
+    font-size: 25px;
+    font-weight: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+#section5 img{
+    width: 50px;
+    height: 50px;
+}
+
+#section5_sol{
+    margin-right: 20px;
+}
+#section5_sol img{
+    margin-right: 20px;
+}
+
+#section5_sag{
+    margin-left: 20px;
+}
+
+#section5_sag img{
+    margin-left: 20px;
+}

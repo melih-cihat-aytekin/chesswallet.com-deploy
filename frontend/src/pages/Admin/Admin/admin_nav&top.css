@@ -1,0 +1,223 @@
+#adminpage {
+    position: relative;
+    z-index: 1;
+    background-color: #242C39;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100dvh;
+}
+
+#adminpagetop {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#adminpagetop_left_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 100%;
+    margin-left: 5px;
+}
+
+
+#adminpagetop_left_logo span {
+    color: bisque;
+}
+
+#admin_logo {
+    width: 40px;
+    height: auto;
+}
+
+#adminpagetop_ara {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+#adminpagetop_right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.adminpagetop_right_icon {
+    transition: all 0.2s ease-out;
+}
+
+.adminpagetop_right_icon:hover {
+    margin-top: 10px;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+
+#adminpagetop_right_setting {
+    margin-right: 15px;
+}
+
+#adminpagetop_right_setting:hover {
+    cursor: pointer;
+}
+
+#adminpagetop_right_notification {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#adminpagetop_right_dark {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#adminpagetop_right_bright {
+    display: none;
+    height: 100%;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#adminname {
+    margin-right: 15px;
+}
+
+#adminpagedown {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+#adminpagedown_navbar {
+    display: flex;
+    position: relative;
+    left: 10px;
+    flex-direction: column;
+    width: 200px;
+    height: 80dvh;
+    font-family: 'Nunito', sans-serif;
+    background-color: #273143;
+    border-radius: 20px;
+}
+
+#adminpagedown_navbar_main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 20%;
+}
+
+#adminpagedown_navbar_title {
+    display: flex;
+    text-align: start;
+    margin-top: 20px;
+}
+
+#adminpagedown_navbar_title_main {
+    color: #cccfd7;
+    margin-left: 10px;
+}
+
+#adminpagedown_navbar_title_lists {
+    color: #cccfd7;
+    margin-left: 10px;
+}
+
+#adminpagedown_navbar_main_links {
+    display: flex;
+    flex-direction :column;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#adminpagedown_navbar_main_links_homepage {
+    display: flex;
+    flex-direction: row;
+    transition: all 0.2s ease-out;
+}
+
+#adminpagedown_navbar_main_links_homepage:hover {
+    margin-left: 20px;
+}
+
+#adminpagedown_navbar_main_links_profil {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.2s ease-out;
+}
+
+#adminpagedown_navbar_main_links_profil:hover {
+    margin-left: 20px;
+}
+
+#adminpagedown_navbar_lists {
+    margin-top: 20px;
+}
+
+#adminpagedown_navbar_lists_text {
+    margin-left: 20px;
+}
+
+.adminpagedown_navbar_icon {
+    display: flex;
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.adminpagedown_navbar_links_texts {
+    display: flex;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    padding: 0;
+    transition: all 0.2s ease-out;
+}
+
+.adminpagedown_navbar_links_texts:hover {
+    padding: 10px 20px;
+    transition: all 0.2s ease-in;
+}
+
+#adminpagedown_navbar a,
+#adminpagetop a{
+    text-decoration: none;
+}
+
+#geri_sayim {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 75px;
+    border: 3px solid wheat;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#geri_sayim  hr{
+    width: 60%;
+}
+#geri_sayim  span{
+    height: 36px;
+}

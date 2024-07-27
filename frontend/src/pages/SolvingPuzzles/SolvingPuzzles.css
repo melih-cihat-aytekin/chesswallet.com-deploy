@@ -1,0 +1,29 @@
+.puzzle_board {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.gif_check {
+    display: none;
+}
+
+.gif_check_con {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+}
+
+.puzzle_info_container {
+    margin-left: 50px;
+    width: 35%;
+    height: 85%;
+}
+
+.move-transition {
+    transition: transform 0.8s ease-in-out;
+    /* Örnek bir geçiş efekti */
+}

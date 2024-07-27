@@ -1,0 +1,62 @@
+//const puzzleÇözüm1 = () => {
+    //     const orta = Math.floor(truehamle1.length / 2);
+
+    //     const neredenTrue = truehamle1.slice(0, orta);
+    //     const nereyeTrue = truehamle1.slice(orta);
+
+    //     const move = chessGame.move({ from: neredenTrue, to: nereyeTrue })
+    //     if (move) {
+    //         setPosition(chessGame.fen());
+    //         console.log("Yapılan hamle:", move.san);
+    //     }
+    // }
+
+    // const puzzleÇözüm2 = () => {
+    //     const orta2 = Math.floor(truehamle2.length / 2);
+
+    //     const neredenTrue2 = truehamle2.slice(0, orta2);
+    //     const nereyeTrue2 = truehamle2.slice(orta2);
+
+    //     const move2 = chessGame.move({ from: neredenTrue2, to: nereyeTrue2 })
+    //     if (move2) {
+    //         setPosition(chessGame.fen());
+    //         console.log("Yapılan hamle:", move2.san);
+    //     }
+    // }
+    // const puzzleÇözüm3 = () => {
+    //     const orta3 = Math.floor(truehamle3.length / 2);
+
+    //     const neredenTrue3 = truehamle3.slice(0, orta3);
+    //     const nereyeTrue3 = truehamle3.slice(orta3);
+
+    //     const move3 = chessGame.move({ from: neredenTrue3, to: nereyeTrue3 })
+    //     if (move3) {
+    //         setPosition(chessGame.fen());
+    //         console.log("Yapılan hamle:", move3.san);
+    //     }
+    // }
+
+    // const puzzleÇözüm4 = () => {
+    //     const orta4 = Math.floor(truehamle4.length / 2);
+
+    //     const neredenTrue4 = truehamle4.slice(0, orta4);
+    //     const nereyeTrue4 = truehamle4.slice(orta4);
+
+    //     const move4 = chessGame.move({ from: neredenTrue4, to: nereyeTrue4 })
+    //     if (move4) {
+    //         setPosition(chessGame.fen());
+    //         console.log("Yapılan hamle:", move4.san);
+    //     }
+    // }
+
+
+                // setTruehamle1(response.data.puzzles[0].moves[0])
+            // setTruehamle2(response.data.puzzles[0].moves[1])
+            // setTruehamle3(response.data.puzzles[0].moves[2])
+            // setTruehamle4(response.data.puzzles[0].moves[3])
+
+
+                // const [truehamle1, setTruehamle1] = useState('')
+    // const [truehamle2, setTruehamle2] = useState('')
+    // const [truehamle3, setTruehamle3] = useState('')
+    // const [truehamle4, setTruehamle4] = useState('')

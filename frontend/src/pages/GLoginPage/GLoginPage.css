@@ -1,0 +1,83 @@
+.glogin_section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 130dvh;
+    align-items: center;
+    background-color: #302E2B;
+}
+
+.login-container{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #172719;
+    padding: 30px 20px;
+    min-width: 70%;
+    border-radius: 17.5px;
+}
+
+.glogin_section section{
+    display: flex;
+    flex-direction: column;
+}
+
+.loginPassword {
+    display: flex;
+    padding: 10px 5px;  
+}
+
+.login-label-area{
+    display: flex;
+    padding: 10px 5px;
+}
+
+#email-login-label{
+    text-align: left;
+    width: 300px;
+}
+
+#username-login-label{
+    text-align: left;
+    width: 300px;
+}
+
+#email-login-label-secim{
+    text-align: right;
+    width: 300px;
+}
+
+#username-login-label-secim{
+    text-align: right;
+    width: 300px;
+}
+
+.authentication-social-signin-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.authentication-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    border-radius: 5px;
+    /* background-color: #a8e27f; */
+    background-color: #94b979;
+}
+
+.authentication-google span{
+    margin-left: 15px;
+}
+
+.signpageor {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}

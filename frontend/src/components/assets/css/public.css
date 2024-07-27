@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import './constants.css';
+@import './auto.css';
+
+@media only screen and (max-width: 999px) {
+    .mobile-warning {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100dvh;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .ghome_section {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .mobile-warning {
+        display: none;
+    }
+
+    .ghome_section {
+        display: flex;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+html {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.AllContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.AllContainerColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#statistic_rising_img {
+    display: flex;
+    width: 12%;
+    height: auto;
+}
+
+.istatistik_up_down_area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ghome_section section {
+    display: block;
+    margin-top: 40px;
+}
+
+.ghome_section {
+    flex-direction: column;
+    width: 100%;
+    height: 100dvh;
+    align-items: center;
+}
+
+#sign_form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+a,
+a:visited {
+    color: #fff;
+}
+
+.gregister_section input[type="text"],
+.gregister_section input[type=email],
+.gregister_section input[type="password"],
+#sign_btn,
+textarea {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+}
+
+.glogin_section input[type="text"],
+.glogin_section input[type=email],
+.glogin_section input[type="password"],
+#sign_btn,
+textarea {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+}
+
+.glogin_section label,
+.gregister_section label,
+#sign_btn {
+    margin-top: 1rem;
+}
+
+#sign_btn {
+    margin-top: 30px;
+    padding: 15px 20px;
+    font-size: 27px;
+}
+
+.secim_btn {
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions>svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+    width: 600px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.successmsg {
+    background-color: lightpink;
+    color: rgb(34, 178, 51);
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+
+h1 {
+    align-items: center;
+}

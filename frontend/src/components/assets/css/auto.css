@@ -1,0 +1,198 @@
+.span-5 {
+    font-size: 5px;
+}
+
+.span-10 {
+    font-size: 10px;
+}
+
+.span-12 {
+    font-size: 12px;
+}
+
+.span-15 {
+    font-size: 15px;
+}
+
+.span-18 {
+    font-size: 18px;
+}
+
+.span-21 {
+    font-size: 21px;
+}
+
+.span-24 {
+    font-size: 24px;
+}
+
+.span-27 {
+    font-size: 30px;
+}
+
+.span-30 {
+    font-size: 30px;
+}
+.span-36 {
+    font-size: 36px;
+}
+.span-39 {
+    font-size: 39px;
+}
+
+.mrgn-l-5 {
+    margin-left: 5px;
+}
+
+.mrgn-l-10{
+    margin-left: 10px;
+}
+
+.mrgn-l-15{
+    margin-left: 15px;
+}
+
+.mrgn-l-20{
+    margin-left: 20px;
+}
+
+.mrgn-l-25{
+    margin-left: 25px;
+}
+
+.mrgn-l-30{
+    margin-left: 30px;
+}
+.mrgn-l-40{
+    margin-left: 40px;
+}
+.mrgn-l-80{
+    margin-left: 80px;
+}
+.mrgn-t-5 {
+    margin-top: 5px;
+}
+
+.mrgn-t-10{
+    margin-top: 10px;
+}
+
+.mrgn-t-15{
+    margin-top: 15px;
+}
+
+.mrgn-t-20{
+    margin-top: 20px;
+}
+
+.mrgn-r-5 {
+    margin-right: 5px;
+}
+
+.mrgn-r-10{
+    margin-right: 10px;
+}
+
+.mrgn-r-15{
+    margin-right: 15px;
+}
+
+.mrgn-r-20{
+    margin-right: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h-center {
+    display: flex;
+    align-items: center;
+    height: 100dvh;
+}
+
+.w-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex_drc_column {
+    flex-direction: column;
+}
+
+.flex_drc_row {
+    flex-direction: row;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.font-weight-800 {
+    font-weight: 800;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-300 {
+    font-weight: 300;
+}
+
+.font-gl {
+    font-family: 'Teko', sans-serif;
+}
+
+.color-red {
+    color: #ff0000;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.color-black {
+    color: #000000;
+}
+
+.kare-puzzle-black {
+    width: 30px;
+    height: 30px;
+    background-color: #312E2B;
+    border: 1px solid #8B8987;
+    border-radius: 2px;
+}
+
+.kare-puzzle-white {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #DAD8D6;
+    border-radius: 2px;
+}
+
+.color-green {
+    color: #00ff00;
+}
+
+.color-grey {
+    color: #c2c2c2;
+}

@@ -1,0 +1,78 @@
+@import '../../components/assets/css/constants.css';
+
+#ArchiveContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100dvh;
+}
+
+#AnalysisLeftBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    margin-left: 5px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.analysisMagnifyGlass {
+    margin-right: 10px;
+}
+ 
+.analysisContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.evaluateContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    background-color: #403D39;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: #403D39;
+    border-radius: 0px 0px 5px 5px;
+    overflow: hidden;
+    height: 40px;
+}
+
+.progressSpan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    overflow: hidden;
+    height: 40px;
+}
+
+.progress-bar-inner {
+    height: 40px;
+    width: 0;
+    text-align: start;
+    line-height: 20px;
+    color: black;
+    transition: width 0.3s;
+    background-color: #ffffff;
+    border-radius: 0px 0px 5px 5px;
+}

@@ -1,0 +1,161 @@
+.puzzleInfoContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #1c1b18;
+}
+
+#puzzleInfoTitleArea {
+    border-radius : 10px 10px 0px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    min-height: 99px;
+}
+
+#puzzleInfoTitleAreaLeftBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    margin-left: 5px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+#puzzleInfoTitleAreaOrtaAlan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.side-block {
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+#puzzleInfoAnaArea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    margin-top: 20px;
+}
+
+#puzzleInfoAnaArea #user_home_default_profile_img{
+    width: 75px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#puzzleInfoAnaAreaText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+#puzzleInfoAnaAreaCrono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+
+#puzzleInfoAnaAra {
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+#puzzleInfoAnaButtonArea {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+}
+
+.puzzleInfoAnaButton {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 75%;
+    height: 60%;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: #454441;
+    color: #ffffffb8;
+    font-weight: 600;
+    font-size: 0.75rem;
+    border: none;
+}
+
+.puzzleInfoAnaButton:hover {
+    border: none;
+    width: 75%;
+    height: 60%;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: #72716c;
+    color: white;
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+#puzzleInfoAnaButtonAreaNext {
+
+}
+
+#puzzleInfoAnaButtonAreaNextÜst {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#puzzleInfoAnaButtonAreaNextAlt {
+    
+}
+
+#puzzleInfoAnaButtonAreaTekrarÜst {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#puzzleInfoAnaButtonAreaTekrarAlt {
+
+}
+
+#puzzleInfoAnaButtonAreaIpucuÜst {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#puzzleInfoAnaButtonAreaIpucuAlt {
+
+}

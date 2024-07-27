@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
+@import './constants.css';
+:root{
+  /* --dark-clr: #550000;
+  --light-clr:#f1d874; */
+  --dark-clr: var(--global-color-bg-win);
+  --light-clr: #fff;
+}
+body{
+  padding:0;
+  margin:0;
+}
+
+.chessLoadingContainerGameSelect{
+  position:relative;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  flex-direction:column;
+  align-items:center;
+}
+
+.chessLoadingContainer{
+  position:relative;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.chessLoadingContainer_chess_icon{
+  height:80px;
+  width:80px;
+  border:4px solid #333;
+  border-radius:20px;
+  background-image:conic-gradient(var(--dark-clr) 0, var(--dark-clr) 90deg,var(--light-clr) 90deg, var(--light-clr) 180deg, var(--dark-clr) 180deg, var(--dark-clr) 270deg,var(--light-clr) 270deg, var(--light-clr) 360deg);
+  animation-name:loading;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes loading{
+  20% {
+    transform:rotate(90deg);
+  }
+  40%{
+    transform:rotate(180deg);
+  }
+  60%{
+    transform:rotate(270deg);
+  }
+  80%{
+    transform:rotate(360deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+
+p {
+  font-family:'Heebo',Arial;
+  margin-top:1em;
+  color:white;
+  font-size:1em;
+}
+
+/* 
+<div class="chessLoadingContainer">
+  <div class="chessLoadingContainer_chess_icon"></div>
+</div> */

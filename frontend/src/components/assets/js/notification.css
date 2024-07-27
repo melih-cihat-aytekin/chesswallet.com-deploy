@@ -1,0 +1,28 @@
+.notification {
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    padding: 20px;
+    border-radius: 4px;
+    color: #fff;
+    z-index: 200000000000;
+    min-width: 100px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .success {
+    background-color: green;
+  }
+  
+  .error {
+    background-color: red;
+  }
+
+  .beklemede {
+    background-color: #90900b;
+  }
+  

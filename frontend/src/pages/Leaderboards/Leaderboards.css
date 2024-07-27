@@ -1,0 +1,288 @@
+#leaderboard-all-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100dvh;
+}
+
+#leaderboard-all-con-left {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#leaderboard-all-con-middle {
+    position: fixed;
+    left: 100px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 75px 0px 60px;
+    overflow-y: auto;
+}
+
+#leaderboard-img {
+    width: 50px;
+    height: auto;
+}
+
+#leaderboard-left-button {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+#leaderboard-all-con-middle-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+#leaderboard-all-con-middle-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+#leaderboard-all-con-middle-bottom-left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#leaderboard-all-con-middle-bottom-right {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#leaderboard-all-con-middle-bottom-ara {
+    width: 5%;
+}
+
+#leaderboard-all-con-middle-bottom-left-top {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#leaderboard-all-con-middle-bottom-left-top-TypeGame {
+    width: 47.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #262522;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+}
+
+#leaderboard-all-con-middle-bottom-left-top-ara {
+    width: 5%;
+}
+
+#leaderboard-all-con-middle-bottom-left-top-TypeCountry {
+    width: 47.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #262522;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+}
+
+#leaderboard-all-con-middle-bottom-left-top-dropdown-ara {
+    width: 100%;
+}
+
+#leaderboard-all-con-middle-bottom-left-bottom {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#leaderboard-all-con-middle-bottom-left-bottom-blitz {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #262522;
+    /* padding: 5px 20px 5px 20px; */
+    border-radius: 8px;
+}
+
+#leaderboard-all-con-middle-bottom-left-bottom-rapid {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #262522;
+    /* padding: 5px 20px 5px 20px; */
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.LeaderboardViewAll {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #21201D;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.LeaderboardViewAll span {
+    color: #d1d1d1;
+}
+
+.LeaderboardViewAll:hover span {
+    color: rgb(255, 255, 255);
+}
+
+.LeaderboardList {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.LeaderboardListList {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.LeaderboardListImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+}
+
+.LeaderboardListImg img {
+    width: 60px;
+    height: auto;
+}
+
+.LeaderboardListImg span {
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.leaderboard-item {
+    display: flex;
+    width: 90%;
+    height: 45px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.leaderboard-item .rank{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leaderboard-item .profilePhoto{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.leaderboard-item .profilePhoto img{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.leaderboard-item .name{
+    width: auto;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.leaderboard-item .name span{
+}
+
+.first {
+    background-color: #F7C631;
+    color: black;
+}
+
+.second {
+    background-color: #BEBDB9;
+    color: black;
+}
+
+.third {
+    background-color: #9E745B;
+    color: black;
+}

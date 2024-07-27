@@ -1,0 +1,163 @@
+#tournaments_all_container {
+    display: flex;
+    flex-direction: row;
+    height: 100dvh;
+    width: 100%;
+    align-items: center;
+}
+
+#tournaments_left_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85%;
+    min-width: 100px;
+    width: 25%;
+    margin-left: 25px;
+}
+
+#tournaments_left_area_üst {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #272522;
+    border-radius: 5px;
+}
+
+#tournaments_left_area_üst_title_area {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#tournaments_left_area_üst_title_area_title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#tournaments_left_area_üst_info_area_sayac {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tournaments_left_area_üst_info_area {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+#tournaments_left_area_üst_info_area_katil_button {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tournaments_left_area_üst_info_area_leave_button {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#tournaments_left_area_alt {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #272522;
+}
+
+#tournaments_game_board_görsel {
+    margin-left: 40px;
+}
+
+#tournaments_right_area {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #272522;
+    height: 85%;
+    min-width: 100px;
+    width: 25%;
+    margin-right: 25px;
+}
+
+#tournaments_right_area_üst {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#tournaments_right_area_üst_sıralama {
+    border-radius: 5px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: #5d5c57;
+    border-bottom: 4px solid #C1C1C0;
+}
+
+#tournaments_right_area_üst_oyunlar {
+    border-radius: 0px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: #5d5c57;
+}
+
+#tournaments_right_area_alt_sıralama {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+}
+
+#tournaments_right_area_alt_sıralama_list {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#tournaments_right_area_alt_oyunlar_list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#tournaments_right_area_alt_oyunlar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+}

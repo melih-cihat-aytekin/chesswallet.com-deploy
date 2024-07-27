@@ -1,0 +1,263 @@
+#wallet_all_con {
+    display: flex;
+    width: 100%;
+    height: 100dvh;
+    background-color: #F3F4F8;
+    color: #151515;
+}
+
+#wallet_sol_bar {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    min-height: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#wallet_sol_bar_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#wallet_sol_bar_logo img {
+    /* width: 95%; */
+    width: auto;
+    height: 95%;
+}
+
+#wallet_ana_area {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    min-height: 100%;
+    height: auto;
+}
+
+#wallet_ana_area_sol {
+    display: flex;
+    flex-direction: column;
+    width: 57.5%;
+    min-height: 100%;
+    height: auto;
+    margin-left: 5%;
+}
+
+#wallet_ana_area_sol_title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+#wallet_ana_area_sol_wallet {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 20px;
+    /* background-color: #0276FF; */
+    background-color: #3375BB;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#wallet_ana_area_sol_wallet div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 45%;
+    margin-left: 40px;
+    padding: 20px;
+}
+#wallet_profile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+#wallet_ana_area_sag {
+    display: flex;
+    flex-direction: column;
+    width: 27.5%;
+    min-height: 100%;
+    height: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#wallet_profile_user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#wallet_profile_user div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#wallet_user_country_flag {
+    margin-left: 10px;
+    width: 25px;
+    height: auto;
+    margin-right: 7px;
+}
+
+#wallet_default_profile_img {
+    width: 40px;
+    height: auto;
+}
+
+#wallet_sol_bar_logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+#wallet_sol_bar_logout img {
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    background-color: #2f2f2f;
+}
+
+#wallet_sol_bar_logout img:hover {
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-bottom: 23px;
+    background-color: #cc1609;
+    transition: background-color 0.3s ease;
+}
+
+#wallet_sol_bar_ara{
+    display: flex;
+    width: 100%;
+}
+
+#wallet_sol_bar_notification_bar_area {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#wallet_sol_bar_notification_bar_area img {
+    width: 50%;
+    height: auto;
+}
+
+#wallet_sol_bar_notification_bar_area img:hover {
+    width: 42%;
+    height: auto;
+    cursor: pointer;
+}
+
+#wallet_notification_container {
+    z-index: 1000000000;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+#wallet_notification_area {
+    z-index: 1000000000;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 500px;
+    width: 400px;
+    background-color: #40939b;
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+#user_home_notification_close_btn {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+
+#user_home_notification_ara_user_request {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#notification_user_request {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+}
+
+#notification_user_request_profil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#notification_user_request_name {
+    width: 125px;
+}
+
+#notification_user_request_ara {
+    width: 50px;
+}
+
+#notification_user_request_addFriendBtn button {
+    background-color: #3F68BA;
+    color: #fff;
+    border: none;
+}
+
+#notification_user_request_RemoveMsg button {
+    background-color: #3F68BA;
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+}
+
+#notification_user_request_addFriendBtn button:hover,
+#notification_user_request_RemoveMsg button:hover {
+    background-color: #183369;
+    color: #fff;
+    border: none;
+}

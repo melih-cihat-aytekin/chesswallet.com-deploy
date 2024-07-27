@@ -1,0 +1,118 @@
+#user-profile-container {
+    display: flex;
+    width: 100%;
+    height: 100dvh;
+    justify-content: center;
+    z-index: 1;
+}
+#changed_top_bar {
+    position: absolute;
+    display: flex;
+    width: 90%;
+    height: 75px;
+    z-index: 20;
+    background-color: rgb(62, 123, 0);
+    border-radius: 0px 0px 10px 10px;
+    justify-content: flex-end;
+}
+
+#changed_top_bar button{
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+#changed_top_bar button{
+    margin: 10px;
+    width: 150px;
+}
+
+#user-profile-container-orta {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    padding: 5px;
+}
+
+#user-profile-container-orta-sol {
+    display: flex;
+    flex-direction: column;
+    min-width: 62.5%;
+    height: 100%;
+    align-items: center;
+}
+
+
+#user-profile-container-orta-sol-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 225px;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #262522;
+    border-radius: 10px;
+}
+
+#user-profile-container-orta-sol-main-düzenle {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+#user-profile-container-orta-sol-main-profile {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#user-profile-container-orta-sol-main-profile-img {
+    width: 150px;
+    height: auto;
+}
+
+#user-profile-container-orta-sol-main-profile-info {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#user-profile-container-orta-sol-main-profile-info-user-flag {
+    margin-left: 10px;
+    width: 30px;
+    height: auto;
+}
+
+#user-profile-container-orta-sol-main-profile-info-user-diamond {
+    width: 25px;
+    height: auto;
+    margin-left: 10px;
+}
+
+
+#user-profile-container-orta-sag {
+    display: flex;
+    flex-direction: column;
+    min-width: 32.5%;
+    height: 100%;
+    align-items: center;
+}
+
+#user-profile-container-orta-ara {
+    display: flex;
+    flex-direction: column;
+    min-width: 5%;
+    height: 100%;
+    align-items: center;
+}
